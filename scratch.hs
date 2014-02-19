@@ -6,5 +6,7 @@ cubedAddition a b c = a*a*a + b*b*b + c*c*c
 
 comparison = 3 `compare` 3
 
-numToDouble :: (Num n) => n -> Double
-numToDouble i = ((i) :: Double)
+-- numToDouble :: (Num a) => a -> Double -- Why doesn't this work?
+-- numToDouble i = ((i) :: Double)       -- http://stackoverflow.com/questions/21894463/type-signature-of-num-to-double
+
+
